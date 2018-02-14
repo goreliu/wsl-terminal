@@ -138,7 +138,7 @@ use_tmux=0
 ```
 
 然后 `open-wsl` 就会使用 tmux 了。
-
+默认tmux的命令前缀Ctrl B不是很方便，这里改成了Ctrl A。
 ## 切换发行版
 
 使用 `open-wsl -d distro` （在 `cmd.exe` 里运行）来切换发行版：
