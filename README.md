@@ -136,6 +136,8 @@ Config files won't be overridden, `etc/wsl-terminal.conf` and `etc/minttyrc` wil
 
 Then `open-wsl` will use tmux.
 
+Note: the default tmux bind-key `Ctrl B` is set to `Ctrl A` here to be cute.
+
 ## Switch distros
 
 Use `open-wsl -d distro` to switch distros:
